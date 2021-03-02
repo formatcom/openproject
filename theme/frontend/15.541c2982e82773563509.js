@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{"9SdV":function(e,t){var n;n=jQuery,jQuery((function(){function e(e){var t=n("#reply"),o=n("#reply_subject"),r=jQuery("#reply #message-form");o.val(e.subject),n("ckeditor-augmented-textarea op-ckeditor").data("editor").then((function(t){t.setData(e.content)})),t.slideDown(),n("#content-wrapper").animate({scrollTop:r.offset().top},1e3)}n(".boards--quote-button").click((function(t){var o=n(this);return n.getJSON(o.attr("href")).done(e),t.preventDefault(),!1}))}))}}]);
+//# sourceMappingURL=15.541c2982e82773563509.js.map
