@@ -1,7 +1,7 @@
 ~~~
 - openproject/community:11
 
-$ podman run --name openproject --rm -it -p 8000:80 -v $(pwd)/theme:/app/theme openproject/community:11
+$ podman run --name openproject --entrypoint bash --rm -it -p 8000:80 -v $(pwd)/theme:/app/theme openproject/community:11
 ~~~
 
 ~~~
